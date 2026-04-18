@@ -9,3 +9,5 @@ insert into tb_alunos
 (id,nome,email,data_nascimento)
 values
 (1,"Alexandre de Souza JR", "alexandre@gmail.com",timestamp "1995-07-26");
+delete from tb_alunos where id = 1;
+drop table tb_alunos;
