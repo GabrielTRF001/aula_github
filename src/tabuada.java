@@ -5,7 +5,7 @@ public class tabuada {
 
         Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Digite um número para ver a tabuada:");
+        System.out.println("Digite um número para ver a tabuada :");
         int numero = scanner.nextInt();
 
         if (numero <= 0) {
